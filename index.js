@@ -8,7 +8,7 @@ z.onreadystatechange = function(){
     var data = JSON.parse(z.responseText);
     var y = Math.floor(Math.random()*data.length);
     var result = data[y].img;
-    var web = `<img src="${result}" height="500px">`;
+    var web = `<img src="${result}" height="500px"><br><h6>Presented by Zeev-x</h6>`;
     document.getElementById("zeev-x").innerHTML = web;
   }
 };

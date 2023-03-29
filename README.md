@@ -41,6 +41,12 @@
   <div id="result"></div>
 
 ```
+### Or
+```
+<script src="https://zeev-x.github.io/x/index.js"></script>
+
+<div id="zeev-x"></div>
+```
 
 ## Note 
 

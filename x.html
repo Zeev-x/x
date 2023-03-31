@@ -1,0 +1,43 @@
+<script src="https://zeev-x.github.io/x/script/zeev.js"></script>
+
+<script>
+
+  function pass(){
+
+    var x = document.getElementById("pass").value;
+
+    if(x == "Zeev"){
+
+      window.onload = nsfw();
+
+    } else {
+
+      document.getElementById("image").innerHTML = "Password salah!!"
+
+    }
+
+  }
+
+</script>
+
+<div id="image"></div><br>
+
+<input type="password" id="pass">
+
+<button onclick="pass()">OK</button>
+
+<style>
+
+  body {
+
+    text-align: center;
+
+  }
+
+  input,button {
+
+    font-family: Monospace;
+
+  }
+
+</style>
